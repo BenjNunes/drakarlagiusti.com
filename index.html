@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Google Tag Manager -->
+<!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P52ZMBKH');
+    </script>
+    
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dra Karla Giusti - Reprodução Humana</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/logo.ico" type="image/x-icon">
+    <style>
+
+.btn-whats{
+  background-color: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  border-radius: 800px;
+  padding: 16px;
+  
+  top: 85%;
+  left: 90%;
+  position: fixed;
+  transition: all .6s;
+  animation: 2s btn-whats;
+  animation-fill-mode: both;
+  animation-iterative-count: 1;
+  z-index: 1;
+}.btn-whats:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+.pulse{
+  animation: pulse 2s infinite;
+}
+
+
+
+.btn-whats > i{
+  position: relative;
+  font-size: 2.4rem;
+  margin: -5px -1px;
+}
+
+@media only screen and (min-width: 900px){
+  .btn-whats{
+    left: 92%;
+  }
+  
+
+}
+
+@media only screen and (max-width: 700px){
+  .btn-whats{
+    left: 85%;
+  }
+  h1{
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .btn-whats{
+    left: 80%;
+  }
+  
+}
+
+@media only screen and (max-width: 350px){
+  .btn-whats{
+    left: 75%;
+  }
+}
+/* Animações */
+@keyframes btn-whats{
+  10%{
+    transform: translate(0, 200px); 
+  }
+  50%{
+    transform: translate(0, -40px);
+  }
+  
+  70%{
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  50%{
+    transform: scale(1.1);
+  }
+}
+
+.popup .content {
+ position: fixed;
+ padding: 7% 30% 12% 30%;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-150%) scale(0);
+ width: 100%;
+ height: 100%;
+ z-index: 2;
+ text-align: center;
+ border-radius: 5px;
+ background: transparent;
+ z-index: 10;
+}
+@media (max-width: 767px) {
+    .popup .content {
+
+        padding: 6% 0% 0% 0%;
+        width: 95%;
+        height: 100%;
+    }
+}
+
+.popup .close-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 30%;
+    top: 11%;
+    width: 44px;
+    height: 44px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 2px 5px 7px 5px;
+    background: transparent;
+    z-index: 10;
+ }
+ @media (max-width: 767px){
+    .popup .close-btn {
+
+    right: 0%;
+    top: 3%;
+ }
+ }
+#form-popup{
+    margin-top: 10%;
+}
+.popup.active .content {
+transition: all 300ms ease-in-out;
+transform: translate(-50%,-50%) scale(1);
+}
+.input-field .validate {
+padding: 10px;
+font-size: 16px;
+border-radius: 5px;
+border: none;
+margin-bottom: 15px;
+color: #000000;
+background: #ffffff;
+border: 2px solid rgb(214, 214, 214);
+width: 270px;
+outline: none;
+}
+
+.first-button {
+color: rgb(3, 48, 146);
+font-size: 25px;
+font-weight: 500;
+padding: 15px 50px;
+border-radius: 5px;
+border: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #dadadb;
+ 
+transition: box-shadow .35s ease !important;
+outline: none;
+}
+
+.first-button:active {  
+background-color: rgb(2, 42, 112);
+color: #fff;
+border: none;
+}
+
+.second-button {
+color: white;
+font-size: 18px;
+font-weight: 500;
+margin-top: 20px;
+padding: 15px 40px;
+border-radius: 5px;
+border: none;
+background: #05438f;
+ 
+transition: box-shadow .35s ease !important;
+outline: none;
+}
+
+.second-button:active{
+background: linear-gradient(145deg,#222222, #292929);
+ 
+border: none;
+outline: none;
+}
+#desk{
+    display: block
+}
+@media (max-width: 767px){
+    #desk{
+        display: none
+    }
+    #mob {
+        display: block
+    }
+}
+    </style>
+
+</head>
+<body>
+    <a class="btn-whats pulse" onclick="dataLayer.push({'event':'btn_whatsapp', 'label':'botao-fixo-wpp'});abre()">
+        <!--
+          Adicione o 'pulse' para deixar o botão com animação infinita ou             remova-o para deixar parado.
+          Por padrão a classe está ativa.
+        -->
+        <i class="fa fa-whatsapp" style="color: white;"></i>
+    </a>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JSHP8LF"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="foi-header landing-header">
+        
+        <video id="desk" autoplay loop muted>
+            <source src="assets/images/header_movie.mp4" type="video/mp4">
+        </video>
+        <video id="mob" preload autoplay muted loop playsinline>
+            <source  src="assets/images/mobile_video.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light foi-navbar">
+                <a class="navbar-brand" href="index.html">  
+                    <img src="assets/images/logo1.png" alt="Logo Dra Karla">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" onclick="dataLayer.push({'event':'menu', 'label':'inicio'})" href="/">Início <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" onclick="dataLayer.push({'event':'menu', 'label':'sobre'})" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" onclick="dataLayer.push({'event':'menu', 'label':'youtube'})" href="#youtube">Canal Youtube</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item mr-2 mb-3 mb-lg-0">
+                            <a class="btn btn-success shadow-sm rounded text-white"  onclick="dataLayer.push({'event':'menu', 'label':'fale-pelo-whatsapp'});abre()">Fale pelo Whatsapp</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <div id="header-text" class="header-content text-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <h1  class="text-light" style="font-size: 4rem;">Dra Karla Giusti</h1>
+                        <p class="text-secondary " style="font-size: 1.2rem;">Ginecologista e Obstetra Especialista em Reprodução Humana, Cirurgia Robótica, Terapia Hormonal e Laser Íntimo</p>
+                        <button onclick="dataLayer.push({'event':'btn_header', 'label':'agende-sua-consulta'});abre()" class="btn btn-dark mb-4 shadow-sm p-3 mb-5 rounded" style="font-size: 43px;">AGENDE SUA CONSULTA</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <img src="assets/images/dra_recorte.jpg" alt="special offers" class="img-fluid" width="492px">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="section-title">Especialização em Reprodução Humana</h2>
+                    <p class="mb-5">
+                        Meu nome é
+                        Karla Giusti Zacharias,
+                        sou ginecologista e obstetra, especialista em Reprodução Humana, em Cirurgia Laparoscópica, Histeroscopia e Cirurgia Robótica.
+                  </p>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Fertilização in Vitro</h5>
+                                    <p>É a técnica de reprodução assistida que consiste na fertilização do óvulo pelo espermatozóide em laboratório.</p>
+                                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'fertilizacao-in-vitro'});abre()"  class="text-primary mb-5">Saiba Mais</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Congelamento de Óvulos</h5>
+                                    <p>É uma técnica cujo objetivo é preservar os óvulos por tempo indeterminado.</p>
+                                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'congelamento-de-ovulos'});abre()"  class="text-primary mb-5">Saiba Mais</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Ovodoação</h5>
+                                    <p>A ovodoação consiste na doação do gameta feminino para que outra mulher tenha a possibilidade de gestar.</p>
+                                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'ovodoacao'});abre()"  class="text-primary mb-5">Saiba Mais</a></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Inseminação Intrauterina</h5>
+                                    <p>A técnica consiste na estimulação dos ovários, seguida da introdução do sêmen preparado por meio de um cateter que adentra o colo uterino.</p>
+                                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'inseminacao-Intrauterina'});abre()"  class="text-primary mb-5">Saiba Mais</a></p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 mb-5">
+        <div class="container">
+            <h2>Ajudando a Formar Famílias</h2>
+            <p class="text-muted mb-5">Acredito que toda família deve se sentir feliz e realizada, e que busque um tratamento de qualidade para ajudar nesse processo.</p>
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="card pricing-card border-claro active">
+                        <div class="card-body py-5">
+                            <h4 class="mb-1">Consulta</h4>
+                            <p class="mb-4">Agende sua consulta médica e receba atendimento especializado para cuidar da sua saúde.</p>
+                            <button onclick="dataLayer.push({'event':'saiba_mais', 'label':'consulta'});abre()" class="btn btn-claro btn-rounded">Saber Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card pricing-card border-azul active">
+                        <div class="card-body py-5">
+                            <h4>Diagnóstico</h4>
+                            <p class="mb-4">Realizamos diagnósticos, utilizando a tecnologia como aliada.</p>
+                            <button onclick="dataLayer.push({'event':'saiba_mais', 'label':'diagnostico'});abre()" class="btn btn-azul btn-rounded">Saber Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card pricing-card border-primary active">
+                        <div class="card-body py-5">
+                            <h4>Tratamento</h4>
+                            <p class="mb-4">Tratamento personalizado, visando saúde e bem-estar duradouros.</p>
+                            <button onclick="dataLayer.push({'event':'saiba_mais', 'label':'tratamento'});abre()" class="btn btn-primary btn-rounded">Saber Mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card pricing-card border-dark active">
+                        <div class="card-body py-5">
+                            <h4>Assistência </h4>
+                            <p class="mb-4">Assistência completa, cuidado dedicado, retornos regulares e acompanhamento após o tratamento.</p>
+                            
+                            <button onclick="dataLayer.push({'event':'saiba_mais', 'label':'assistencia'});abre()" class="btn btn-dark btn-rounded">Saber Mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="youtube" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">Conheça nosso canal no Youtube</h2>
+            <div class="container col-lg-7 py-5 " style="margin-left: 0;">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1JDjfjgaMl0" allowfullscreen></iframe>
+                </div>
+                </div>
+  
+                <div class="col-lg-5 mb-4 mb-lg-0 py-5 ">
+                    <h5>Conteúdo Semanal</h5>
+                    <p class="text-dark">Contéudo de qualidade e relevante com finalizadade de informar e orientar.</p>
+                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'saiba-youtube'})" href="https://www.youtube.com/@DraKarlaGiusti" class="text-primary mb-5">Saiba Mais</a></p>
+                    <h5>Reprodução Humana</h5>
+                    <p class="text-dark">Se inscreva e ative o sininho para receber as notificações.</p>
+                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'acompanhe-youtube'})" href="https://www.youtube.com/@DraKarlaGiusti" class="text-primary mb-5">Acompanhar</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--
+
+        <section class="py-5 mb-5">
+            <div class="container">
+            <h2>Satisfied Users</h2>
+            <p class="text-muted mb-5">Thank you for your very professional and prompt response. I wished I had found you before </p>
+            <div class="row">
+                <div class="col-md-4 foi-review mb-5 mb-md-0">
+                    <div class="foi-rating">
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                    </div>
+                    <h5 class="foi-review-heading">Great support available</h5>
+                    <p class="foi-review-content">Thank you for your very professional and prompt response. I wished I had found you before I spent money on a competitors theme.</p>
+                    <div class="media foi-review-user">
+                        <img src="assets/images/avatar/avatar_11.jpg" alt="user" class="avatar">
+                        <div class="media-body">
+                            <h6 class="mb-0">Amarachi Nkechi</h6>
+                            <p>UX Designer</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 foi-review mb-5 mb-md-0">
+                    <div class="foi-rating">
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                    </div>
+                    <h5 class="foi-review-heading">Great support available</h5>
+                    <p class="foi-review-content">Thank you for your very professional and prompt response. I wished I had found you before I spent money on a competitors theme.</p>
+                    <div class="media foi-review-user">
+                        <img src="assets/images/avatar/avatar_12.jpg" alt="user" class="avatar">
+                        <div class="media-body">
+                            <h6 class="mb-0">Margje Jutten</h6>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 foi-review mb-5 mb-md-0">
+                    <div class="foi-rating">
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                    </div>
+                    <h5 class="foi-review-heading">Great support available</h5>
+                    <p class="foi-review-content">Thank you for your very professional and prompt response. I wished I had found you before I spent money on a competitors theme.</p>
+                    <div class="media foi-review-user">
+                        <img src="assets/images/avatar/avatar_13.jpg" alt="user" class="avatar">
+                        <div class="media-body">
+                            <h6 class="mb-0">Monica Böttger</h6>
+                            <p>UX Designer</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <section class="py-5 mb-5">
+        <div class="container" onclick="dataLayer.push({'event':'faq'})">
+            <h2>Perguntas Frequentes
+            </h2>
+            <p class="section-subtitle">Vamos lá...</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqOneTitle">
+                            <a href="#faqOneCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Quais são os exames comuns realizados em uma consulta de reprodução humana?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqOneCollapse" class="collapse" aria-labelledby="faqOneTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">
+                                    Durante uma consulta de reprodução humana, o médico pode solicitar uma série de exames, incluindo exames hormonais, análise de esperma do parceiro, ultrassonografias, histerossalpingografia (HSG) para verificar a permeabilidade das trompas de Falópio e possivelmente outros exames específicos para investigar a causa da infertilidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqTwoTitle">
+                            <a href="#faqTwoCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Quais são os fatores que podem afetar a fertilidade feminina?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqTwoCollapse" class="collapse" aria-labelledby="faqTwoTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Vários fatores podem afetar a fertilidade feminina, incluindo idade avançada, desequilíbrios hormonais, endometriose, problemas nas trompas de Falópio, síndrome dos ovários policísticos (SOP), entre outros. É importante consultar um especialista em reprodução humana para avaliar sua situação específica.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqThreeTitle">
+                            <a href="#faqThreeCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Há algo que eu possa fazer para melhorar minha fertilidade?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqThreeCollapse" class="collapse" aria-labelledby="faqThreeTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Algumas medidas que podem ajudar a melhorar a fertilidade incluem manter um estilo de vida saudável, manter um peso corporal adequado, evitar o tabagismo, reduzir o consumo de álcool, praticar atividade física regularmente e gerenciar o estresse. No entanto, é fundamental lembrar que a fertilidade é influenciada por vários fatores e nem sempre é possível controlar todos eles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqFourTitle">
+                            <a href="#faqFourCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Quais são os fatores que podem afetar a fertilidade masculina?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqFourCollapse" class="collapse" aria-labelledby="faqFourTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">A fertilidade masculina pode ser afetada por vários fatores, incluindo baixa contagem de espermatozoides, motilidade reduzida dos espermatozoides, morfologia anormal dos espermatozoides, lesões nos testículos, infecções sexualmente transmissíveis, exposição a toxinas ambientais, uso de certos medicamentos e problemas genéticos. É importante que o parceiro também seja avaliado em casos de dificuldades para conceber.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqFiveTitle">
+                            <a href="#faqFiveCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Quanto tempo leva em média para um tratamento de fertilidade ser bem-sucedido?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqFiveCollapse" class="collapse" aria-labelledby="faqFiveTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">
+                                    A resposta pode variar de acordo com vários fatores, como a causa subjacente da infertilidade, a idade da mulher e a escolha do tratamento. Alguns casais podem obter sucesso logo no primeiro ciclo de tratamento, enquanto outros podem precisar de várias tentativas ou considerar opções avançadas, como a FIV. É essencial ter paciência e seguir as orientações do especialista em reprodução humana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqSixTitle">
+                            <a href="#faqSixCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">A infertilidade pode ser prevenida?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqSixCollapse" class="collapse" aria-labelledby="faqSixTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">
+                                    Em alguns casos, a infertilidade pode ser prevenida adotando medidas de estilo de vida saudável, como evitar o uso de tabaco e drogas recreativas, limitar o consumo de álcool, manter um peso saudável e evitar a exposição a substâncias tóxicas no ambiente de trabalho. No entanto, muitas causas de infertilidade não podem ser prevenidas. É recomendável consultar um médico para avaliar sua situação específica e obter orientações personalizadas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="foi-footer text-white">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-xl-6 col-lg-7 col-md-8">
+                    <h2 class="mb-0">Fale no nosso Whatsapp</h2>
+                </div>
+                <div class="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
+                    <a   onclick="dataLayer.push({'event':'btn_whatsapp', 'label':'tenho-duvida'});abre()" class="btn btn-success btn-lg">Tenho Dúvidas</a>
+                </div>
+            </div>
+            <div class="row footer-widget-area">
+                <div class="col-md-3">
+                    <div class="py-3">
+                        <img src="assets/images/drak1.png" alt="FOI">
+                    </div>
+                    <p class="font-os font-weight-semibold mb3">CRM/SP: 100967 <br> RQE: 45606</p>
+                    <p class="mb3">Av. Antônio Joaquim de Moura Andrade, 315 - Vila Nova Conceição</p>
+ 
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <nav>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Canal Youtube</a>
+                                <a href="#!" class="nav-link">Instagram</a>
+                            </li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <nav>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Fale Conosco</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Cadastro <span class="badge badge-pill badge-secondary ml-3">Novo</span></a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <p>
+                        &copy;2023 <a oneclick="dataLayer.push({'event':'link_uive', 'label':'instagram'})"  href="https://www.instagram.com/uivestudios/" target="_blank" rel="noopener noreferrer" class="text-reset">UiveStudios</a>.
+                    </p>
+                    <p>Direitos reservados</p>
+                    <nav class="social-menu">
+                        
+                        <a href="https://www.instagram.com/drakarlagiusti/"><img src="assets/images/instagram.svg" alt="instagram"></a>
+                        
+                        <a href="https://www.youtube.com/@DraKarlaGiusti"><img src="assets/images/youtube.svg" alt="youtube"></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div  class="popup" id="popup-1">
+            <div id="popup-content" class="content">
+                <span class= "close-btn modal-icon" onclick="abre()"><i class="fa fa-times" style="color: black;"></i></span> 
+                <script  data-b24-form="inline/5/t2bfqm" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://cdn.bitrix24.com.br/b26316739/crm/form/loader_5.js');</script>    
+                
+                <!--
+             
+             <h4>Sign In</h4> 
+
+
+                 <form id="form-popup" action="">
+                     <div class="input-field"><input placeholder="Nome e Sobrenome" class="validate"></div>
+                     <div class="input-field"><input placeholder="Email" class="validate"></div>
+                     <div class="input-field"><input placeholder="Telefone" class="validate"></div>
+                     <div class="input-field"><input placeholder="Password" class="validate"></div>
+                     <button class="second-button">Sign in</button>
+                    </form>
+                    
+                -->
+                </div>
+            </div>
+
+              
+    </footer>
+    <script>
+
+        var modal = document.getElementById('popup-content');
+        modal.addEventListener('click', function(e) {
+        if (e.target == this) fecha();
+        });
+
+        function abre() {
+            document.getElementById("popup-1")
+            .classList.toggle("active");
+        }
+
+        function fecha() {
+
+            document.getElementById("popup-1")
+            .classList.remove("active");
+        }
+        
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
