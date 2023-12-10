@@ -8424,8 +8424,7 @@ html {
   scroll-behavior: smooth; }
 
 .foi-header {
-  margin: 0; height: 110vh
-}
+  margin: 0; height: 110vh}
   .foi-header .header-content {
     padding-top: 30vh;
     padding-bottom: 40px; 
@@ -8433,58 +8432,18 @@ html {
     left: 50%;
     text-align: center;
   }
-  @media (min-width: 767px) {
+  @media (max-width: 767px) {
     .foi-header .header-content{
-      padding-top: 40vh;
+      padding-top: 18vh;
 
     }
   }
-  .foi-header .header-content h1 {
-      font-size: 2.6em;
+    .foi-header .header-content h1 {
+      font-size: 45px;
       line-height: 1.22; 
- }@media (min-width: 576px) {
-  .foi-header .header-content{
-    font-size: 1em;
-    padding-top: 40vh;
-  }.foi-header .header-content h1 {
-    font-size: 2.5em;
-    line-height: 1.22; 
-}
-}@media (min-width: 767px) {
-  .foi-header .header-content{
-    font-size: 1em;
-    padding-top: 40vh;
-  }.foi-header .header-content h1 {
-    font-size: 2.5em;
-    line-height: 1.22; 
-
-  }
-}@media (min-width: 992px) {
-  .foi-header .header-content{
-    font-size: 1em;
-    padding-top: 25vh;
-
-  }.foi-header .header-content h1 {
-    font-size: 2.5em;
-    line-height: 1.22; 
-    
-  }
-}@media (min-width: 1200px) {
-  .foi-header .header-content{
-    font-size: 1em;
-  }.foi-header .header-content h1 {
-    font-size: 4em;
-    line-height: 1.22; 
-
-  }
-}
+ }
  
- @media (max-width: 576px) {
-  .foi-header .header-content{
-    padding-top: 45vh;
 
-  }
-}
 .foi-header.landing-header video{
   width: -webkit-fill-available;
   position: absolute;
@@ -8890,76 +8849,3 @@ html {
   color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
-
-#banners #desk {
-  display: none
-}
-#banners #mob {
-  display: block;
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-  @media (min-width: 576px) {
-    #banners #desk {
-      display: none
-    }
-    #banners #mob {
-      display: block;
-      position: absolute;
-      background-repeat: no-repeat;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    
-  }
-
-  @media (min-width: 768px) {
-    #banners #desk {
-      display: none
-    }
-    #banners #mob {
-      display: block;
-      position: absolute;
-      background-repeat: no-repeat;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  @media (min-width: 992px) {
-    #banners #desk {
-      display: block;
-      position: absolute;
-      background-repeat: no-repeat;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    #banners #mob {
-      display: none;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    #banners #desk {
-      display: block;
-      position: absolute;
-      background-repeat: no-repeat;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    #banners #mob {
-      display: none;
-    }
-  }
