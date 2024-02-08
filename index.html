@@ -239,17 +239,11 @@ outline: none;
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <header class="foi-header landing-header">
-        
-        <video id="desk" autoplay loop muted>
-            <source src="assets/images/header_movie.mp4" type="video/mp4">
-        </video>
-        <video id="mob" preload autoplay muted loop playsinline>
-            <source  src="assets/images/mobile_video.mp4" type="video/mp4">
-        </video>
-        <div class="container">
+        <div class="container" id="header-area">
             <nav class="navbar navbar-expand-lg navbar-light foi-navbar">
                 <a class="navbar-brand" href="index.html">  
                     <img src="assets/images/logo1.png" alt="Logo Dra Karla">
+                    
                 </a>
                 <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -275,13 +269,17 @@ outline: none;
                 </div>
             </nav>
             <div id="header-text" class="header-content text-center">
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="col-md-6">
-                        <h1  class="text-light" style="font-size: 4rem;">Dra Karla Giusti</h1>
-                        <p class="text-secondary " style="font-size: 1.2rem;">Ginecologista e Obstetra Especialista em Reprodução Humana, Cirurgia Robótica, Terapia Hormonal e Laser Íntimo</p>
-                        <button onclick="dataLayer.push({'event':'btn_header', 'label':'agende-sua-consulta'});abre()" class="btn btn-dark mb-4 shadow-sm p-3 mb-5 rounded" style="font-size: 43px;">AGENDE SUA CONSULTA</button>
+                        <h1  class="text-dark" style="font-size: 4rem;">Dra Karla Giusti</h1>
+                        <p class="text-dark" style="font-size: 1.2rem;">Ginecologista e Obstetra Especialista em Reprodução Humana, Cirurgia Robótica, Terapia Hormonal e Laser Íntimo</p>
+                        <button onclick="dataLayer.push({'event':'btn_header', 'label':'agende-sua-consulta'});abre()" class="btn btn-dark mb-4 shadow-sm p-3 mb-5 rounded">AGENDE SUA CONSULTA</button>
 
                     </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/header-png-flutuante.png" alt="imagem de mulher grávida">
+                    </div>
+                    
 
                 </div>
             </div>
@@ -290,16 +288,14 @@ outline: none;
     <section id="about" class="mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 mb-5 mb-md-0">
-                    <img src="assets/images/dra_recorte.jpg" alt="special offers" class="img-fluid" width="492px">
-                </div>
                 <div class="col-md-6">
+                    
                     <h2 class="section-title">Especialização em Reprodução Humana</h2>
                     <p class="mb-5">
-                        Meu nome é
-                        Karla Giusti Zacharias,
-                        sou ginecologista e obstetra, especialista em Reprodução Humana, em Cirurgia Laparoscópica, Histeroscopia e Cirurgia Robótica.
-                  </p>
+                            Meu nome é
+                            Karla Giusti Zacharias,
+                            sou ginecologista e obstetra, especialista em Reprodução Humana, em Cirurgia Laparoscópica, Histeroscopia e Cirurgia Robótica.
+                    </p>
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <div class="media landing-feature">
@@ -343,7 +339,63 @@ outline: none;
                                 </div>
                             </div>
                         </div>
+                        
+                        
                     </div>
+                    
+                </div>
+                <div class="col-md-6">
+                    
+                    <div class="mb-5">
+                        <img src="assets/images/vetor1.png" style="padding: 3%;" alt="imagem de mulher grávida">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Terapia Hormonal</h5>
+                                    <p>Equilíbrio e bem-estar para a saúde ginecológica e qualidade de vida.</p>
+                                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'fertilizacao-in-vitro'});abre()"  class="text-primary mb-5">Saiba Mais</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Laser Íntimo</h5>
+                                    <p>inovação para rejuvenescimento e tratamento de condições ginecológicas com conforto e eficácia.</p>
+                                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'congelamento-de-ovulos'});abre()"  class="text-primary mb-5">Saiba Mais</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Cirurgia Ginecológica</h5>
+                                    <p>Laparoscopia e histeroscopia: precisão e recuperação rápida. O futuro da cirurgia ginecológica.</p>
+                                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'ovodoacao'});abre()"  class="text-primary mb-5">Saiba Mais</a></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Cirurgia Robótica</h5>
+                                    <p>Tecnologia avançada para procedimentos precisos e menos invasivos.</p>
+                                    <p class="mb-5"><a onclick="dataLayer.push({'event':'saiba_mais', 'label':'inseminacao-Intrauterina'});abre()"  class="text-primary mb-5">Saiba Mais</a></p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
                 </div>
             </div>
         </div>

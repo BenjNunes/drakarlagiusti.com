@@ -51,9 +51,6 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
-#header-text{
-  height: 90vh;
-}
 
 body {
   margin: 0;
@@ -8155,6 +8152,7 @@ h1, h2, h3, h4, h5, h6 {
 .text-gray {
   color: #989898; }
 
+  #about{padding-top:3%;}
 .page-about p {
   font-size: 18px;
   line-height: 1.56;
@@ -8321,6 +8319,12 @@ button:focus {
     .landing-client-carousel .carousel-indicators li.active {
       background-color: #6206a8; }
 
+.foi-header.landing-header {
+  background-color: #ffffff;
+  background-image: url(../images/Bg_2@2x.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size:cover; }
 .foi-footer {
   padding-top: 150px;
   padding-bottom: 110px;
@@ -8424,10 +8428,10 @@ html {
   scroll-behavior: smooth; }
 
 .foi-header {
-  margin: 0; height: 110vh}
+  margin: 0; height:auto}
   .foi-header .header-content {
-    padding-top: 30vh;
-    padding-bottom: 40px; 
+    padding-top: 20vh;
+  
     top: 50%;
     left: 50%;
     text-align: center;
